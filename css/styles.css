@@ -63,6 +63,18 @@ p {
   position: absolute;
 }
 
+@media (max-width: 991px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
 /* Features Section */
 #features {
   background-color: #FFF;
